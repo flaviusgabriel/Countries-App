@@ -28,7 +28,6 @@ export const CountryDetails = () => {
       <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
         {country.name.common}
       </h2>
-      <h2>{"ewe"}</h2>
       <img
         className="w-96 h-auto max-h-40 object-cover rounded-md mb-4"
         alt={`Flag of ${country.name.common}`}
